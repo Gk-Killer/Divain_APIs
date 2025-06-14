@@ -28,8 +28,3 @@ Sample Endpoints
 -   POST	/stocks_movement	            Update stock quantity
 -   GET	/stocks_movement_history	    Get stock movement history
 
-# Installation      
-1. Clone the repository:
-   ```bash
-   git clone
-    
