@@ -15,16 +15,20 @@ It is built using Python and FASTAPI, and it uses Postgres as the database.
 - sqlalchemy
 - pydantic
 
-## 🚀 Tech Stack
+# Tech Stack
 
 - **Backend**: FastAPI
 - **Database**: PostgreSQL
 - **ORM**: psycopg2 (or SQLAlchemy if using ORM)
 - **Testing**: TestClient
 
-Sample Endpoints 
+# Sample Endpoints 
     Method	    Endpoint	                Description
 -   GET	    /stocks	                        List all stock items
 -   POST	/stocks_movement	            Update stock quantity
 -   GET	/stocks_movement_history	    Get stock movement history
 
+# Database
+attached the db file as divain.dump.
+can be restored with below cammand, 
+"pg_restore -U target_user -h target_host -p target_port -d target_db divain.dump"
